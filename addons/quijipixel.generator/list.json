@@ -1,0 +1,1155 @@
+{
+  "generators": {
+    "SpriteAnim2D.0": {
+      "name": "ella_anim",
+      "sprite_height": 38,
+      "sprite_width": 26,
+      "spritesheet": "res://characters/ella/ella.png",
+      "animations": {
+        "Idle": {
+          "loop": true,
+          "ping_pong": false,
+          "frames": [
+            {
+              "id": 1,
+              "time": 144,
+              "react": ""
+            },
+            {
+              "id": 2,
+              "time": 144,
+              "react": ""
+            },
+            {
+              "id": 3,
+              "time": 144,
+              "react": ""
+            },
+            {
+              "id": 4,
+              "time": 144,
+              "react": ""
+            },
+            {
+              "id": 5,
+              "time": 112,
+              "react": ""
+            }
+          ]
+        },
+        "Run": {
+          "loop": true,
+          "ping_pong": false,
+          "frames": [
+            {
+              "id": 11,
+              "time": 80,
+              "react": "step"
+            },
+            {
+              "id": 12,
+              "time": 80,
+              "react": ""
+            },
+            {
+              "id": 13,
+              "time": 96,
+              "react": ""
+            },
+            {
+              "id": 14,
+              "time": 112,
+              "react": ""
+            },
+            {
+              "id": 15,
+              "time": 96,
+              "react": ""
+            },
+            {
+              "id": 16,
+              "time": 80,
+              "react": ""
+            },
+            {
+              "id": 17,
+              "time": 74,
+              "react": ""
+            },
+            {
+              "id": 18,
+              "time": 64,
+              "react": ""
+            },
+            {
+              "id": 19,
+              "time": 80,
+              "react": "step"
+            },
+            {
+              "id": 20,
+              "time": 80,
+              "react": ""
+            },
+            {
+              "id": 21,
+              "time": 96,
+              "react": ""
+            },
+            {
+              "id": 6,
+              "time": 112,
+              "react": ""
+            },
+            {
+              "id": 7,
+              "time": 96,
+              "react": ""
+            },
+            {
+              "id": 8,
+              "time": 80,
+              "react": ""
+            },
+            {
+              "id": 9,
+              "time": 64,
+              "react": ""
+            },
+            {
+              "id": 10,
+              "time": 64,
+              "react": ""
+            }
+          ]
+        },
+        "Jump": {
+          "loop": true,
+          "ping_pong": false,
+          "frames": [
+            {
+              "id": 22,
+              "time": 112,
+              "react": ""
+            },
+            {
+              "id": 23,
+              "time": 112,
+              "react": ""
+            },
+            {
+              "id": 24,
+              "time": 112,
+              "react": ""
+            },
+            {
+              "id": 25,
+              "time": 112,
+              "react": ""
+            }
+          ]
+        },
+        "Peak": {
+          "loop": false,
+          "ping_pong": false,
+          "frames": [
+            {
+              "id": 26,
+              "time": 112,
+              "react": ""
+            },
+            {
+              "id": 27,
+              "time": 112,
+              "react": ""
+            },
+            {
+              "id": 28,
+              "time": 112,
+              "react": ""
+            }
+          ]
+        },
+        "Fall": {
+          "loop": true,
+          "ping_pong": false,
+          "frames": [
+            {
+              "id": 29,
+              "time": 112,
+              "react": ""
+            },
+            {
+              "id": 30,
+              "time": 112,
+              "react": ""
+            },
+            {
+              "id": 31,
+              "time": 112,
+              "react": ""
+            },
+            {
+              "id": 32,
+              "time": 112,
+              "react": ""
+            }
+          ]
+        },
+        "Land": {
+          "loop": false,
+          "ping_pong": false,
+          "frames": [
+            {
+              "id": 33,
+              "time": 96,
+              "react": ""
+            },
+            {
+              "id": 34,
+              "time": 96,
+              "react": ""
+            },
+            {
+              "id": 35,
+              "time": 96,
+              "react": ""
+            }
+          ]
+        }
+      },
+      "target_dir": "res://characters/ella",
+      "attached_script": "res://characters/PlayableAnim.gd"
+    },
+    "SpriteAnim2D.1": {
+      "name": "art_anim",
+      "sprite_height": 32,
+      "sprite_width": 26,
+      "spritesheet": "res://characters/art/art.png",
+      "animations": {
+        "Idle": {
+          "loop": true,
+          "ping_pong": false,
+          "frames": [
+            {
+              "id": 1,
+              "time": 112,
+              "react": ""
+            },
+            {
+              "id": 2,
+              "time": 112,
+              "react": ""
+            },
+            {
+              "id": 3,
+              "time": 112,
+              "react": ""
+            },
+            {
+              "id": 4,
+              "time": 112,
+              "react": ""
+            },
+            {
+              "id": 5,
+              "time": 112,
+              "react": ""
+            }
+          ]
+        },
+        "Run": {
+          "loop": true,
+          "ping_pong": false,
+          "frames": [
+            {
+              "id": 11,
+              "time": 80,
+              "react": "step"
+            },
+            {
+              "id": 12,
+              "time": 80,
+              "react": ""
+            },
+            {
+              "id": 13,
+              "time": 96,
+              "react": ""
+            },
+            {
+              "id": 14,
+              "time": 112,
+              "react": ""
+            },
+            {
+              "id": 15,
+              "time": 96,
+              "react": ""
+            },
+            {
+              "id": 16,
+              "time": 80,
+              "react": ""
+            },
+            {
+              "id": 17,
+              "time": 74,
+              "react": ""
+            },
+            {
+              "id": 18,
+              "time": 64,
+              "react": ""
+            },
+            {
+              "id": 19,
+              "time": 80,
+              "react": "step"
+            },
+            {
+              "id": 20,
+              "time": 80,
+              "react": ""
+            },
+            {
+              "id": 21,
+              "time": 96,
+              "react": ""
+            },
+            {
+              "id": 6,
+              "time": 112,
+              "react": ""
+            },
+            {
+              "id": 7,
+              "time": 96,
+              "react": ""
+            },
+            {
+              "id": 8,
+              "time": 80,
+              "react": ""
+            },
+            {
+              "id": 9,
+              "time": 64,
+              "react": ""
+            },
+            {
+              "id": 10,
+              "time": 64,
+              "react": ""
+            }
+          ]
+        },
+        "Jump": {
+          "loop": true,
+          "ping_pong": false,
+          "frames": [
+            {
+              "id": 22,
+              "time": 112,
+              "react": ""
+            }
+          ]
+        },
+        "Peak": {
+          "loop": false,
+          "ping_pong": false,
+          "frames": [
+            {
+              "id": 23,
+              "time": 112,
+              "react": ""
+            },
+            {
+              "id": 24,
+              "time": 112,
+              "react": ""
+            },
+            {
+              "id": 25,
+              "time": 112,
+              "react": ""
+            }
+          ]
+        },
+        "Fall": {
+          "loop": true,
+          "ping_pong": false,
+          "frames": [
+            {
+              "id": 26,
+              "time": 112,
+              "react": ""
+            },
+            {
+              "id": 27,
+              "time": 112,
+              "react": ""
+            },
+            {
+              "id": 28,
+              "time": 112,
+              "react": ""
+            }
+          ]
+        },
+        "Land": {
+          "loop": false,
+          "ping_pong": false,
+          "frames": [
+            {
+              "id": 29,
+              "time": 96,
+              "react": ""
+            },
+            {
+              "id": 30,
+              "time": 96,
+              "react": ""
+            },
+            {
+              "id": 31,
+              "time": 96,
+              "react": ""
+            }
+          ]
+        }
+      },
+      "target_dir": "res://characters/art",
+      "attached_script": "res://characters/PlayableAnim.gd"
+    },
+    "SpriteAnim2D.3": {
+      "name": "sarah_anim",
+      "sprite_height": 38,
+      "sprite_width": 26,
+      "spritesheet": "res://characters/sarah/sarah.png",
+      "animations": {
+        "Idle": {
+          "loop": true,
+          "ping_pong": false,
+          "frames": [
+            {
+              "id": 1,
+              "time": 160,
+              "react": ""
+            },
+            {
+              "id": 2,
+              "time": 160,
+              "react": ""
+            },
+            {
+              "id": 3,
+              "time": 160,
+              "react": ""
+            },
+            {
+              "id": 4,
+              "time": 112,
+              "react": ""
+            },
+            {
+              "id": 5,
+              "time": 160,
+              "react": ""
+            }
+          ]
+        },
+        "Run": {
+          "loop": true,
+          "ping_pong": false,
+          "frames": [
+            {
+              "id": 11,
+              "time": 80,
+              "react": "step"
+            },
+            {
+              "id": 12,
+              "time": 80,
+              "react": ""
+            },
+            {
+              "id": 13,
+              "time": 96,
+              "react": ""
+            },
+            {
+              "id": 14,
+              "time": 112,
+              "react": ""
+            },
+            {
+              "id": 15,
+              "time": 96,
+              "react": ""
+            },
+            {
+              "id": 16,
+              "time": 80,
+              "react": ""
+            },
+            {
+              "id": 17,
+              "time": 74,
+              "react": ""
+            },
+            {
+              "id": 18,
+              "time": 64,
+              "react": ""
+            },
+            {
+              "id": 19,
+              "time": 80,
+              "react": "step"
+            },
+            {
+              "id": 20,
+              "time": 80,
+              "react": ""
+            },
+            {
+              "id": 21,
+              "time": 96,
+              "react": ""
+            },
+            {
+              "id": 6,
+              "time": 112,
+              "react": ""
+            },
+            {
+              "id": 7,
+              "time": 96,
+              "react": ""
+            },
+            {
+              "id": 8,
+              "time": 80,
+              "react": ""
+            },
+            {
+              "id": 9,
+              "time": 64,
+              "react": ""
+            },
+            {
+              "id": 10,
+              "time": 64,
+              "react": ""
+            }
+          ]
+        },
+        "Jump": {
+          "loop": true,
+          "ping_pong": false,
+          "frames": [
+            {
+              "id": 22,
+              "time": 112,
+              "react": ""
+            },
+            {
+              "id": 23,
+              "time": 112,
+              "react": ""
+            },
+            {
+              "id": 24,
+              "time": 112,
+              "react": ""
+            },
+            {
+              "id": 25,
+              "time": 112,
+              "react": ""
+            }
+          ]
+        },
+        "Peak": {
+          "loop": false,
+          "ping_pong": false,
+          "frames": [
+            {
+              "id": 26,
+              "time": 112,
+              "react": ""
+            },
+            {
+              "id": 27,
+              "time": 112,
+              "react": ""
+            },
+            {
+              "id": 28,
+              "time": 112,
+              "react": ""
+            }
+          ]
+        },
+        "Fall": {
+          "loop": true,
+          "ping_pong": false,
+          "frames": [
+            {
+              "id": 29,
+              "time": 112,
+              "react": ""
+            },
+            {
+              "id": 30,
+              "time": 112,
+              "react": ""
+            },
+            {
+              "id": 31,
+              "time": 112,
+              "react": ""
+            },
+            {
+              "id": 32,
+              "time": 112,
+              "react": ""
+            }
+          ]
+        },
+        "Land": {
+          "loop": false,
+          "ping_pong": false,
+          "frames": [
+            {
+              "id": 33,
+              "time": 96,
+              "react": ""
+            },
+            {
+              "id": 34,
+              "time": 96,
+              "react": ""
+            },
+            {
+              "id": 35,
+              "time": 96,
+              "react": ""
+            }
+          ]
+        }
+      },
+      "target_dir": "res://characters/sarah",
+      "attached_script": "res://characters/PlayableAnim.gd"
+    },
+    "SpriteAnim2D.4": {
+      "name": "pepper_anim",
+      "spritesheet": "res://characters/pepper/pepper.png",
+      "sprite_width": 26,
+      "sprite_height": 22,
+      "animations": {
+        "Idle": {
+          "loop": true,
+          "ping_pong": false,
+          "frames": [
+            {
+              "id": 1,
+              "time": 320,
+              "react": ""
+            },
+            {
+              "id": 2,
+              "time": 96,
+              "react": ""
+            },
+            {
+              "id": 3,
+              "time": 96,
+              "react": ""
+            },
+            {
+              "id": 4,
+              "time": 96,
+              "react": ""
+            },
+            {
+              "id": 5,
+              "time": 96,
+              "react": ""
+            },
+            {
+              "id": 6,
+              "time": 96,
+              "react": ""
+            },
+            {
+              "id": 7,
+              "time": 96,
+              "react": ""
+            },
+            {
+              "id": 8,
+              "time": 96,
+              "react": ""
+            },
+            {
+              "id": 9,
+              "time": 96,
+              "react": ""
+            }
+          ]
+        },
+        "Run": {
+          "loop": true,
+          "ping_pong": false,
+          "frames": [
+            {
+              "id": 10,
+              "time": 64,
+              "react": "step"
+            },
+            {
+              "id": 11,
+              "time": 64,
+              "react": ""
+            },
+            {
+              "id": 12,
+              "time": 64,
+              "react": ""
+            },
+            {
+              "id": 13,
+              "time": 64,
+              "react": ""
+            },
+            {
+              "id": 14,
+              "time": 64,
+              "react": ""
+            },
+            {
+              "id": 15,
+              "time": 64,
+              "react": ""
+            },
+            {
+              "id": 16,
+              "time": 64,
+              "react": ""
+            },
+            {
+              "id": 17,
+              "time": 64,
+              "react": ""
+            },
+            {
+              "id": 18,
+              "time": 64,
+              "react": ""
+            },
+            {
+              "id": 19,
+              "time": 80,
+              "react": ""
+            },
+            {
+              "id": 20,
+              "time": 96,
+              "react": ""
+            },
+            {
+              "id": 21,
+              "time": 112,
+              "react": ""
+            },
+            {
+              "id": 22,
+              "time": 96,
+              "react": ""
+            },
+            {
+              "id": 23,
+              "time": 80,
+              "react": "step"
+            },
+            {
+              "id": 24,
+              "time": 64,
+              "react": ""
+            },
+            {
+              "id": 25,
+              "time": 64,
+              "react": ""
+            },
+            {
+              "id": 26,
+              "time": 64,
+              "react": ""
+            },
+            {
+              "id": 27,
+              "time": 64,
+              "react": ""
+            },
+            {
+              "id": 28,
+              "time": 64,
+              "react": ""
+            },
+            {
+              "id": 29,
+              "time": 64,
+              "react": ""
+            },
+            {
+              "id": 30,
+              "time": 64,
+              "react": ""
+            }
+          ]
+        },
+        "Jump": {
+          "loop": true,
+          "ping_pong": false,
+          "frames": [
+            {
+              "id": 31,
+              "time": 112,
+              "react": ""
+            }
+          ]
+        },
+        "Peak": {
+          "loop": false,
+          "ping_pong": false,
+          "frames": [
+            {
+              "id": 32,
+              "time": 80,
+              "react": ""
+            },
+            {
+              "id": 33,
+              "time": 80,
+              "react": ""
+            },
+            {
+              "id": 34,
+              "time": 80,
+              "react": ""
+            },
+            {
+              "id": 35,
+              "time": 80,
+              "react": ""
+            }
+          ]
+        },
+        "Fall": {
+          "loop": true,
+          "ping_pong": false,
+          "frames": [
+            {
+              "id": 36,
+              "time": 112,
+              "react": ""
+            }
+          ]
+        },
+        "Land": {
+          "loop": false,
+          "ping_pong": false,
+          "frames": [
+            {
+              "id": 37,
+              "time": 64,
+              "react": ""
+            },
+            {
+              "id": 38,
+              "time": 64,
+              "react": ""
+            },
+            {
+              "id": 39,
+              "time": 64,
+              "react": ""
+            },
+            {
+              "id": 40,
+              "time": 64,
+              "react": ""
+            },
+            {
+              "id": 41,
+              "time": 64,
+              "react": ""
+            },
+            {
+              "id": 42,
+              "time": 64,
+              "react": ""
+            },
+            {
+              "id": 43,
+              "time": 64,
+              "react": ""
+            },
+            {
+              "id": 44,
+              "time": 64,
+              "react": ""
+            }
+          ]
+        },
+        "Turn": {
+          "loop": false,
+          "ping_pong": false,
+          "frames": [
+            {
+              "id": 45,
+              "time": 80,
+              "react": ""
+            },
+            {
+              "id": 46,
+              "time": 80,
+              "react": ""
+            },
+            {
+              "id": 47,
+              "time": 80,
+              "react": ""
+            },
+            {
+              "id": 48,
+              "time": 80,
+              "react": ""
+            },
+            {
+              "id": 49,
+              "time": 80,
+              "react": ""
+            }
+          ]
+        }
+      },
+      "target_dir": "res://characters/pepper",
+      "attached_script": "res://characters/PlayableAnim.gd"
+    },
+    "SpriteAnim2D.5": {
+      "name": "ella_fire_place",
+      "spritesheet": "res://levels/tutorial_area/ellas_house/fire_place.png",
+      "sprite_height": 17,
+      "sprite_width": 35,
+      "animations": {
+        "Fire": {
+          "loop": true,
+          "ping_pong": false,
+          "frames": [
+            {
+              "id": 1,
+              "time": 96,
+              "react": ""
+            },
+            {
+              "id": 2,
+              "time": 96,
+              "react": ""
+            },
+            {
+              "id": 3,
+              "time": 96,
+              "react": ""
+            },
+            {
+              "id": 4,
+              "time": 96,
+              "react": ""
+            },
+            {
+              "id": 5,
+              "time": 96,
+              "react": ""
+            },
+            {
+              "id": 6,
+              "time": 96,
+              "react": ""
+            },
+            {
+              "id": 7,
+              "time": 96,
+              "react": ""
+            },
+            {
+              "id": 8,
+              "time": 96,
+              "react": ""
+            },
+            {
+              "id": 9,
+              "time": 96,
+              "react": ""
+            },
+            {
+              "id": 10,
+              "time": 96,
+              "react": ""
+            },
+            {
+              "id": 11,
+              "time": 96,
+              "react": ""
+            }
+          ]
+        }
+      },
+      "target_dir": "res://levels/tutorial_area/ellas_house/",
+      "attached_script": "res://levels/tutorial_area/ellas_house/gen_ella_fire_place.gd"
+    },
+    "SpriteAnim2D.6": {
+      "name": "ella_bed",
+      "spritesheet": "res://levels/tutorial_area/ellas_house/bed.png",
+      "sprite_height": 25,
+      "sprite_width": 80,
+      "animations": {
+        "Over": {
+          "loop": false,
+          "ping_pong": false,
+          "frames": [
+            {
+              "id": 1,
+              "time": 16,
+              "react": ""
+            },
+            {
+              "id": 2,
+              "time": 32,
+              "react": ""
+            },
+            {
+              "id": 3,
+              "time": 32,
+              "react": ""
+            }
+          ]
+        },
+        "Off": {
+          "loop": false,
+          "ping_pong": false,
+          "frames": [
+            {
+              "id": 3,
+              "time": 64,
+              "react": ""
+            },
+            {
+              "id": 2,
+              "time": 64,
+              "react": ""
+            },
+            {
+              "id": 1,
+              "time": 64,
+              "react": ""
+            }
+          ]
+        },
+        "Idle": {
+          "loop": true,
+          "ping_pong": false,
+          "frames": [
+            {
+              "id": 1,
+              "time": 32,
+              "react": ""
+            }
+          ]
+        }
+      },
+      "target_dir": "res://levels/tutorial_area/ellas_house",
+      "attached_script": "res://levels/tutorial_area/ellas_house/gen_ella_bed.gd"
+    },
+    "SpriteAnim2D.7": {
+      "name": "ellas_door",
+      "spritesheet": "res://levels/tutorial_area/ellas_house/door.png",
+      "sprite_height": 51,
+      "sprite_width": 29,
+      "animations": {
+        "Open": {
+          "loop": false,
+          "ping_pong": false,
+          "frames": [
+            {
+              "id": 1,
+              "time": 16,
+              "react": ""
+            },
+            {
+              "id": 2,
+              "time": 32,
+              "react": ""
+            },
+            {
+              "id": 3,
+              "time": 32,
+              "react": ""
+            },
+            {
+              "id": 4,
+              "time": 64,
+              "react": ""
+            },
+            {
+              "id": 5,
+              "time": 64,
+              "react": ""
+            },
+            {
+              "id": 6,
+              "time": 64,
+              "react": ""
+            },
+            {
+              "id": 7,
+              "time": 80,
+              "react": ""
+            },
+            {
+              "id": 8,
+              "time": 80,
+              "react": ""
+            },
+            {
+              "id": 9,
+              "time": 80,
+              "react": ""
+            },
+            {
+              "id": 10,
+              "time": 96,
+              "react": ""
+            }
+          ]
+        },
+        "Idle": {
+          "loop": false,
+          "ping_pong": false,
+          "frames": [
+            {
+              "id": 1,
+              "time": 16,
+              "react": ""
+            }
+          ]
+        }
+      },
+      "target_dir": "res://levels/tutorial_area/ellas_house"
+    }
+  },
+  "last_id": 8
+}
