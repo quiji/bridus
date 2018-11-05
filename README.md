@@ -1,3 +1,3 @@
-# Gameoff 2018
+# Bridus
 My entry for  the **github Game Off 2018**
 
