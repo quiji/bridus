@@ -1,5 +1,3 @@
-# My Specific ignores
-_asset_builder/
 
 # Godot-specific ignores
 .import/
