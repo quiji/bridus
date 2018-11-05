@@ -2,9 +2,24 @@
   "completed": {
   },
   "pending": {
+    "task.0": {
+      "task": "Brainstorm Game mechanic",
+      "type": "Task",
+      "creation_date": {
+        "year": 2018,
+        "month": 11,
+        "day": 5,
+        "weekday": 1,
+        "dst": false,
+        "hour": 12,
+        "minute": 49,
+        "second": 16
+      }
+    }
   },
   "comp_order": [
   ],
   "pend_order": [
+    "task.0"
   ]
 }
