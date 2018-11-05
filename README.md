@@ -1,2 +1,3 @@
-# gameoff_2018
-Entry for Github Game Off 2018
+# Gameoff 2018
+My entry for  the **github Game Off 2018**
+
