@@ -1,7 +1,5 @@
 {
   "completed": {
-  },
-  "pending": {
     "task.0": {
       "task": "Brainstorm Game mechanic",
       "type": "Task",
@@ -14,12 +12,39 @@
         "hour": 12,
         "minute": 49,
         "second": 16
+      },
+      "completion_date": {
+        "year": 2018,
+        "month": 11,
+        "day": 6,
+        "weekday": 2,
+        "dst": false,
+        "hour": 14,
+        "minute": 41,
+        "second": 29
+      }
+    }
+  },
+  "pending": {
+    "task.1": {
+      "task": "Test a prototype.",
+      "type": "Task",
+      "creation_date": {
+        "year": 2018,
+        "month": 11,
+        "day": 5,
+        "weekday": 1,
+        "dst": false,
+        "hour": 14,
+        "minute": 15,
+        "second": 59
       }
     }
   },
   "comp_order": [
+    "task.0"
   ],
   "pend_order": [
-    "task.0"
+    "task.1"
   ]
 }
